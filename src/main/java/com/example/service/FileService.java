@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class FileService {
 	
-	@Autowired
+	//@Autowired
 	private  RabbitTemplate rabbitTemplate;
 	
 	public void process() throws InterruptedException{
